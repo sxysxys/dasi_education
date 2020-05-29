@@ -1,0 +1,178 @@
+2020-05-25 10:08:43.632 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_teacher WHERE is_deleted = 0 
+2020-05-25 10:08:43.663 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 
+2020-05-25 10:08:43.696 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 10:08:43.698 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 0(Long), 3(Long)
+2020-05-25 10:08:43.705 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - <==      Total: 3
+2020-05-25 10:08:52.458 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.459 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 0(String)
+2020-05-25 10:08:52.472 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 9
+2020-05-25 10:08:52.475 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.475 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681118568449(String)
+2020-05-25 10:08:52.479 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:08:52.547 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.548 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681181483010(String)
+2020-05-25 10:08:52.554 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:08:52.555 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.555 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681231814658(String)
+2020-05-25 10:08:52.557 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:08:52.594 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.594 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681324089345(String)
+2020-05-25 10:08:52.596 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:08:52.618 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.618 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681399586817(String)
+2020-05-25 10:08:52.623 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:08:52.626 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.626 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681483472898(String)
+2020-05-25 10:08:52.628 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:08:52.630 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.630 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681554776066(String)
+2020-05-25 10:08:52.632 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 1
+2020-05-25 10:08:52.634 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.634 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681613496321(String)
+2020-05-25 10:08:52.635 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:08:52.637 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:08:52.637 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1259421696910192642(String)
+2020-05-25 10:08:52.640 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:09:07.726 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_course WHERE is_deleted = 0 
+2020-05-25 10:09:07.727 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==> Parameters: 
+2020-05-25 10:09:07.734 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==>  Preparing: SELECT id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified FROM edu_course WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 10:09:07.734 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==> Parameters: 0(Long), 5(Long)
+2020-05-25 10:09:07.740 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - <==      Total: 5
+2020-05-25 10:09:11.870 [http-nio-8001-exec-1] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 
+2020-05-25 10:09:11.871 [http-nio-8001-exec-1] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - ==> Parameters: 
+2020-05-25 10:09:11.873 [http-nio-8001-exec-4] DEBUG c.shen.eduservice.mapper.EduCourseMapper.selectOne - ==>  Preparing: SELECT id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified FROM edu_course WHERE is_deleted=0 AND (id = ?) 
+2020-05-25 10:09:11.873 [http-nio-8001-exec-4] DEBUG c.shen.eduservice.mapper.EduCourseMapper.selectOne - ==> Parameters: 1260547009643806722(String)
+2020-05-25 10:09:11.878 [http-nio-8001-exec-4] DEBUG c.shen.eduservice.mapper.EduCourseMapper.selectOne - <==      Total: 1
+2020-05-25 10:09:11.882 [http-nio-8001-exec-1] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - <==      Total: 14
+2020-05-25 10:09:11.894 [http-nio-8001-exec-4] DEBUG c.s.e.mapper.EduCourseDescriptionMapper.selectOne - ==>  Preparing: SELECT id,description,gmt_create,gmt_modified FROM edu_course_description WHERE (id = ?) 
+2020-05-25 10:09:11.894 [http-nio-8001-exec-4] DEBUG c.s.e.mapper.EduCourseDescriptionMapper.selectOne - ==> Parameters: 1260547009643806722(String)
+2020-05-25 10:09:11.897 [http-nio-8001-exec-4] DEBUG c.s.e.mapper.EduCourseDescriptionMapper.selectOne - <==      Total: 1
+2020-05-25 10:09:11.962 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.962 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 0(String)
+2020-05-25 10:09:11.964 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 9
+2020-05-25 10:09:11.966 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.966 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681118568449(String)
+2020-05-25 10:09:11.968 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:09:11.970 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.970 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681181483010(String)
+2020-05-25 10:09:11.971 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:09:11.973 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.974 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681231814658(String)
+2020-05-25 10:09:11.976 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:09:11.978 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.978 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681324089345(String)
+2020-05-25 10:09:11.980 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:09:11.983 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.983 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681399586817(String)
+2020-05-25 10:09:11.985 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:09:11.986 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.986 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681483472898(String)
+2020-05-25 10:09:11.988 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:09:11.990 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.990 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681554776066(String)
+2020-05-25 10:09:11.992 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 1
+2020-05-25 10:09:11.995 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.995 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681613496321(String)
+2020-05-25 10:09:11.996 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:09:11.998 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:11.998 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1259421696910192642(String)
+2020-05-25 10:09:12.000 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:09:15.760 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_course WHERE is_deleted = 0 
+2020-05-25 10:09:15.760 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==> Parameters: 
+2020-05-25 10:09:15.762 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==>  Preparing: SELECT id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified FROM edu_course WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 10:09:15.762 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==> Parameters: 0(Long), 5(Long)
+2020-05-25 10:09:15.763 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - <==      Total: 5
+2020-05-25 10:09:18.419 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 
+2020-05-25 10:09:18.419 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - ==> Parameters: 
+2020-05-25 10:09:18.420 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.420 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 0(String)
+2020-05-25 10:09:18.422 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - <==      Total: 14
+2020-05-25 10:09:18.423 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 9
+2020-05-25 10:09:18.424 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.424 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681118568449(String)
+2020-05-25 10:09:18.427 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:09:18.429 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.429 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681181483010(String)
+2020-05-25 10:09:18.431 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:09:18.432 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.432 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681231814658(String)
+2020-05-25 10:09:18.433 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:09:18.435 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.435 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681324089345(String)
+2020-05-25 10:09:18.436 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:09:18.437 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.438 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681399586817(String)
+2020-05-25 10:09:18.439 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:09:18.441 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.441 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681483472898(String)
+2020-05-25 10:09:18.443 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:09:18.445 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.445 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681554776066(String)
+2020-05-25 10:09:18.446 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 1
+2020-05-25 10:09:18.447 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.448 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681613496321(String)
+2020-05-25 10:09:18.448 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:09:18.450 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:09:18.450 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1259421696910192642(String)
+2020-05-25 10:09:18.451 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:49:12.538 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_teacher WHERE is_deleted = 0 
+2020-05-25 10:49:12.540 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 
+2020-05-25 10:49:12.566 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 10:49:12.582 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 0(Long), 3(Long)
+2020-05-25 10:49:12.587 [http-nio-8001-exec-2] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - <==      Total: 3
+2020-05-25 10:49:17.836 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.836 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 0(String)
+2020-05-25 10:49:17.841 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 9
+2020-05-25 10:49:17.847 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.847 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681118568449(String)
+2020-05-25 10:49:17.849 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:49:17.853 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.854 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681181483010(String)
+2020-05-25 10:49:17.855 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:49:17.859 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.860 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681231814658(String)
+2020-05-25 10:49:17.861 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:49:17.868 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.868 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681324089345(String)
+2020-05-25 10:49:17.870 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:49:17.872 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.872 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681399586817(String)
+2020-05-25 10:49:17.874 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:49:17.879 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.880 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681483472898(String)
+2020-05-25 10:49:17.882 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 2
+2020-05-25 10:49:17.884 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.885 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681554776066(String)
+2020-05-25 10:49:17.886 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 1
+2020-05-25 10:49:17.890 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.890 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1178214681613496321(String)
+2020-05-25 10:49:17.891 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 0
+2020-05-25 10:49:17.894 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==>  Preparing: SELECT id,title,parent_id,sort,gmt_create,gmt_modified FROM edu_subject WHERE (parent_id = ?) 
+2020-05-25 10:49:17.894 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - ==> Parameters: 1259421696910192642(String)
+2020-05-25 10:49:17.897 [http-nio-8001-exec-5] DEBUG c.s.eduservice.mapper.EduSubjectMapper.selectList - <==      Total: 5
+2020-05-25 10:54:36.914 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 
+2020-05-25 10:54:36.915 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - ==> Parameters: 
+2020-05-25 10:54:36.922 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectList - <==      Total: 14
+2020-05-25 11:24:46.114 [http-nio-8001-exec-8] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_teacher WHERE is_deleted = 0 
+2020-05-25 11:24:46.117 [http-nio-8001-exec-8] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 
+2020-05-25 11:24:46.126 [http-nio-8001-exec-8] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 11:24:46.127 [http-nio-8001-exec-8] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 0(Long), 3(Long)
+2020-05-25 11:24:46.130 [http-nio-8001-exec-8] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - <==      Total: 3
+2020-05-25 11:24:50.971 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_teacher WHERE is_deleted = 0 
+2020-05-25 11:24:50.971 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 
+2020-05-25 11:24:50.974 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 11:24:50.974 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 0(Long), 3(Long)
+2020-05-25 11:24:50.976 [http-nio-8001-exec-4] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - <==      Total: 3
+2020-05-25 11:24:52.969 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectById - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE id=? AND is_deleted=0 
+2020-05-25 11:24:52.969 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectById - ==> Parameters: 1259163810602782721(String)
+2020-05-25 11:24:52.972 [http-nio-8001-exec-7] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectById - <==      Total: 1
+2020-05-25 11:24:55.235 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_teacher WHERE is_deleted = 0 
+2020-05-25 11:24:55.235 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 
+2020-05-25 11:24:55.237 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 11:24:55.237 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - ==> Parameters: 0(Long), 3(Long)
+2020-05-25 11:24:55.238 [http-nio-8001-exec-3] DEBUG c.s.eduservice.mapper.EduTeacherMapper.selectPage - <==      Total: 3
+2020-05-25 11:25:00.679 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM edu_course WHERE is_deleted = 0 
+2020-05-25 11:25:00.679 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==> Parameters: 
+2020-05-25 11:25:00.683 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==>  Preparing: SELECT id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified FROM edu_course WHERE is_deleted=0 ORDER BY gmt_create DESC LIMIT ?,? 
+2020-05-25 11:25:00.683 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - ==> Parameters: 0(Long), 5(Long)
+2020-05-25 11:25:00.697 [http-nio-8001-exec-6] DEBUG c.s.eduservice.mapper.EduCourseMapper.selectPage - <==      Total: 5
